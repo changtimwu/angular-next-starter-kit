@@ -73,7 +73,8 @@
     "webpack": "^1.12.9",
     "webpack-config": "^3.1.0",
     "webpack-dev-server": "^1.14.0",
-    "webpack-stream": "^3.1.0"
+    "webpack-stream": "^3.1.0",
+    "autoprefixer": "^6.2.3"
   },
   "dependencies": {
     "angular": "^1.4.8",
