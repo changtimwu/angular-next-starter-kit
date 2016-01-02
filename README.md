@@ -79,6 +79,11 @@ To run the application with a development server with hot module reload, run the
 npm run serve
 ```
 
+Visit the page at your browser
+```
+http://localhost:8080/build/
+```
+
 ## Run the tests
 
 To run the unit tests for the application, run the following command:
