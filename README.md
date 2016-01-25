@@ -81,7 +81,7 @@ npm run serve
 
 Visit the page at your browser
 ```
-http://localhost:8080/build/
+http://localhost:8080
 ```
 
 ## Run the tests

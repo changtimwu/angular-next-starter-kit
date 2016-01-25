@@ -6,11 +6,11 @@ var webpack = require('webpack'),
     ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
 
 module.exports = {
-
     entry: './app/core/bootstrap.ts',
 
     output: {
-        filename: './build/bundle.js'
+        filename: 'bundle.js',
+        path: __dirname + "/build"
     },
 
     devtool: 'source-map',
@@ -67,7 +67,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Nightwing - An Application Framework',
-            filename: './build/index.html',
+            filename: 'index.html',
             template: './app/index.html',
             inject: false
         }),
