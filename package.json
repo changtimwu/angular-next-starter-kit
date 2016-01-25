@@ -10,7 +10,9 @@
     "clean": "npm run clean-docs && npm run clean-build",
     "build": "npm run clean && webpack --progress --colors",
     "serve": "webpack-dev-server --content-base app/ --progress --colors --inline --hot",
-    "test": "karma start"
+    "test": "karma start",
+    "webdriver-update": "./node_modules/protractor/bin/webdriver-manager update",
+    "e2etest": "protractor tests/protractor.conf.js"
   },
   "keywords": [
     "angular",
